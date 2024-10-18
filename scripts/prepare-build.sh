@@ -17,14 +17,16 @@ cmake -DCMAKE_CXX_COMPILER=$COMPILER     \
       -DCMAKE_BUILD_TYPE=Release         \
       -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
       -DASTFRI_BUILD_CPP_FRONTEND=ON     \
+      -DASTFRI_BUILD_JAVA_FRONTEND=ON    \
       ../..
 
 # Generate debug Makefile
 cd ../debug
 cmake -DCMAKE_CXX_COMPILER=$COMPILER     \
-      -DCMAKE_BUILD_TYPE=Debug           \
+      -DCMAKE_BUILD_TYPE=Release         \
       -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
       -DASTFRI_BUILD_CPP_FRONTEND=ON     \
+      -DASTFRI_BUILD_JAVA_FRONTEND=ON    \
       ../..
 
 # Move compile commnads out of the build directory

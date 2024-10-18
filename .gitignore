@@ -1,6 +1,4 @@
-.vscode/settings.json
-
-build
-.cache
+.cache/
+.vscode/
+build/
 compile_commands.json
-*.exe

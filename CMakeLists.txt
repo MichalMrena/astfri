@@ -23,5 +23,3 @@ if (ASTFRI_BUILD_JAVA_FRONTEND)
 endif()
 
 # add_subdirectory(libastfri-output)
-
-# add_subdirectory(examples)
